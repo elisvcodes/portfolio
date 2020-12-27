@@ -1,0 +1,11 @@
+.hero {
+    padding: 90px 0;
+}
+
+.hero_title {
+    letter-spacing: 0.1rem;
+    line-height: 5rem;
+    font-size: 3rem;
+    text-align: left;
+    font-weight: 700;
+}

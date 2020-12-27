@@ -1,0 +1,50 @@
+.nav {
+    position: relative;
+}
+.logo {
+    width: 100px;
+}
+.toggle {
+    position: absolute;
+    top: 0;
+    right: 0;
+    transform: translate(-60%, 35%)
+}
+.icons{
+    font-size: 2.5rem;
+}
+
+.menu{
+    display : none;
+}
+
+.menu_icons {
+    font-size: 2rem;
+}
+
+.show {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3.5rem;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .toggle {
+        display: none;
+    }
+    
+    .nav {
+        display:flex;
+    }
+    .menu {
+        display:flex;
+        justify-content: flex-end;
+        align-items: center;
+        width:100%;
+    }
+    .menu_icons {
+        margin: 3rem;
+    }
+}

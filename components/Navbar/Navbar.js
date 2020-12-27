@@ -17,10 +17,9 @@ export default function Navbar() {
             />
             <span className={`${styles.toggle} ${styles.icons}`} onTouchEnd={handleClick}>{toggle ? <GoX /> : <GoGrabber />}</span>
             <ul className={toggle ? `${styles.show}` : styles.menu}>
-                <li className={`${styles.menu_icons} ${styles.icons}`} onTouchEnd={handleClick}><a target='_blank' href='https://www.linkedin.com/in/elisvcodes/'><ImLinkedin2 /></a></li>
-                <li className={`${styles.menu_icons} ${styles.icons} `} onTouchEnd={handleClick}> <a target='_blank' href='https://github.com/elisvcodes'><ImGithub /></a></li>
-                <li className={`${styles.menu_icons} ${styles.icons} `} onTouchEnd={handleClick}><a target='_blank' href='https://twitter.com/elisvcodes'><ImTwitter /></a></li>
-
+                <li className={`${styles.menu_icons} ${styles.icons}`} onClick={handleClick}> <a target='_blank' href='https://www.linkedin.com/in/elisvcodes/'><ImLinkedin2 /></a></li>
+                <li className={`${styles.menu_icons} ${styles.icons}`} onClick={handleClick}> <a target='_blank' href='https://github.com/elisvcodes'><ImGithub /></a></li>
+                <li className={`${styles.menu_icons} ${styles.icons}`} onClick={handleClick}> <a target='_blank' href='https://twitter.com/elisvcodes'><ImTwitter /></a></li>
             </ul>
         </div>
     )

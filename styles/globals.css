@@ -28,13 +28,18 @@ ul {
 }
 
 img {
+  width: auto;
   max-width: 100%;
   height: auto;
 }
 
+.mg-2{
+  margin: 2rem 0;
+}
+
 @media screen and (min-width: 1024px) {
   .container {
-    max-width: 1200px;
+    max-width: 1250px;
     margin: 0 auto;
   }
 }

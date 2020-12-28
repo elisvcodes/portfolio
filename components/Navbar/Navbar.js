@@ -3,7 +3,6 @@ import styles from './navbar.module.css'
 import { ImLinkedin2, ImGithub, ImTwitter } from 'react-icons/im'
 import { GoGrabber, GoX } from 'react-icons/go'
 import Image from 'next/image'
-import { isMobile } from 'react-device-detect'
 export default function Navbar() {
     const [toggle, setToggle] = useState(false);
     const handleClick = () => setToggle(!toggle);

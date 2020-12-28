@@ -15,18 +15,18 @@
 }
 
 .menu{
-    display : none;
+    display:none;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 3.5rem;
 }
 
 .menu_icons {
     font-size: 2rem;
 }
 
-.show {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 3.5rem;
+.active {
+    display : flex;
 }
 
 @media screen and (min-width: 1024px) {
@@ -38,11 +38,13 @@
         display:flex;
     }
     .menu {
-        display:flex;
+        display: flex;
         justify-content: flex-end;
         align-items: center;
         width:100%;
     }
+
+    
     .menu_icons {
         margin: 3rem;
     }

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import styles from './navbar.module.css'
 import { ImLinkedin2, ImGithub, ImTwitter } from 'react-icons/im'
 import { GoGrabber, GoX } from 'react-icons/go'
+import { FaMediumM } from 'react-icons/fa'
 import Image from 'next/image'
 export default function Navbar() {
     const [toggle, setToggle] = useState(false);
@@ -20,6 +21,7 @@ export default function Navbar() {
                 <li className={`${styles.menu_icons} ${styles.icons}`} onClick={handleClick}> <a target='_blank' href='https://www.linkedin.com/in/elisvcodes/'><ImLinkedin2 /></a></li>
                 <li className={`${styles.menu_icons} ${styles.icons}`} onClick={handleClick}> <a target='_blank' href='https://github.com/elisvcodes'><ImGithub /></a></li>
                 <li className={`${styles.menu_icons} ${styles.icons}`} onClick={handleClick}> <a target='_blank' href='https://twitter.com/elisvcodes'><ImTwitter /></a></li>
+                <li className={`${styles.menu_icons} ${styles.icons}`} onClick={handleClick}> <a target='_blank' href='https://sultanoveli.medium.com/'><FaMediumM /></a></li>
             </ul>
         </div>
     )

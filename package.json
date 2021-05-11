@@ -9,7 +9,7 @@
     "export": "npm run build && next export -o _static"
   },
   "dependencies": {
-    "next": "10.0.4",
+    "next": "^10.2.0",
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-icons": "^4.1.0"

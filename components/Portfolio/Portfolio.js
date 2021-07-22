@@ -15,6 +15,7 @@ export default function Portfolio() {
               height={1200}
               objectPosition='fill'
               objectFit='contain'
+              priority={true}
             />
           </div>
           <h2 className={styles.portfolio_box_title}>Twe Twe</h2>
@@ -42,6 +43,7 @@ export default function Portfolio() {
               height={1200}
               objectPosition='fill'
               objectFit='contain'
+              priority={true}
             />
           </div>
           <h2 className={styles.portfolio_box_title}>OffSet</h2>
@@ -71,6 +73,7 @@ export default function Portfolio() {
               height={1200}
               objectPosition='fill'
               objectFit='contain'
+              priority={true}
             />
           </div>
           <h2 className={styles.portfolio_box_title}>KoreCSS</h2>
@@ -98,6 +101,7 @@ export default function Portfolio() {
               height={1200}
               objectPosition='fill'
               objectFit='contain'
+              priority={true}
             />
           </div>
           <h2 className={styles.portfolio_box_title}>Budget Tracker</h2>

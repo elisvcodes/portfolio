@@ -11,6 +11,7 @@ export default function Home() {
     <>
       <Head>
         <title>Eli Sultanov</title>
+        <meta name="description" content="Hi, my name is eli sultanov. Currently, I am a senior at Brooklyn College studying Computer Science. I enjoy building things using the MERN/PERN stack." />
         <link rel="icon" href="/svicon.ico" />
       </Head>
       <div className="container">

@@ -3,8 +3,6 @@ import styles from './navbar.module.css';
 import { ImLinkedin2, ImGithub, ImTwitter } from 'react-icons/im';
 import { GoGrabber, GoX } from 'react-icons/go';
 import { FaMediumM } from 'react-icons/fa';
-import Image from 'next/image';
-import logo from '../../public/svlogo.png';
 export default function Navbar() {
   const [toggle, setToggle] = useState(false);
   const handleClick = () => setToggle(!toggle);

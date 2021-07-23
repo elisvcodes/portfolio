@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import styles from './about.module.css';
-import Image from 'next/image';
 
 export default function About() {
   const [shown, setShown] = useState(false);

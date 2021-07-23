@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import styles from './portfolio.module.css';
-import Image from 'next/image';
 import { DiSafari, DiGithubAlt } from 'react-icons/di';
 export default function Portfolio() {
   return (

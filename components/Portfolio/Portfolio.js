@@ -8,16 +8,7 @@ export default function Portfolio() {
       <h3 className={styles.portfolio_title}>Things I've built</h3>
       <div className={styles.portfolio}>
         <div className={`${styles.portfolio_box} ${styles.box1}`}>
-          <div className='portfolio_img'>
-            <Image
-              src='/twetwe.png'
-              width={2660}
-              height={1200}
-              objectPosition='fill'
-              objectFit='contain'
-              priority={true}
-            />
-          </div>
+          <img src='/twetwe.png' alt='twetwe image' />
           <h2 className={styles.portfolio_box_title}>Twe Twe</h2>
           <p className={styles.portfolio_box_body}>
             TweTwe (Pronounced T we T we) is a social media platform that is
@@ -36,16 +27,7 @@ export default function Portfolio() {
           </div>
         </div>
         <div className={`${styles.portfolio_box} ${styles.box2}`}>
-          <div className='portfolio_img'>
-            <Image
-              src='/offset-srn.png'
-              width={2660}
-              height={1200}
-              objectPosition='fill'
-              objectFit='contain'
-              priority={true}
-            />
-          </div>
+          <img src='/offset-srn.png' alt='offset image' />
           <h2 className={styles.portfolio_box_title}>OffSet</h2>
           <p className={styles.portfolio_box_body}>
             OffSet is a platform that compares the carbon footprint between
@@ -66,16 +48,7 @@ export default function Portfolio() {
       </div>
       <div className={styles.portfolio}>
         <div className={`${styles.portfolio_box} ${styles.box1}`}>
-          <div className='portfolio_img'>
-            <Image
-              src='/rsz_kore.png'
-              width={2660}
-              height={1200}
-              objectPosition='fill'
-              objectFit='contain'
-              priority={true}
-            />
-          </div>
+          <img src='/rsz_kore.png' alt='korecss image' />
           <h2 className={styles.portfolio_box_title}>KoreCSS</h2>
           <p className={styles.portfolio_box_body}>
             This was my first attempt at creating something for the open source
@@ -94,16 +67,7 @@ export default function Portfolio() {
         </div>
 
         <div className={`${styles.portfolio_box} ${styles.box2}`}>
-          <div className='portfolio_img'>
-            <Image
-              src='/rsz_1bt.png'
-              width={2660}
-              height={1200}
-              objectPosition='fill'
-              objectFit='contain'
-              priority={true}
-            />
-          </div>
+          <img src='/rsz_1bt.png' alt='Budget Tracker image' />
           <h2 className={styles.portfolio_box_title}>Budget Tracker</h2>
           <p className={styles.portfolio_box_body}>
             The entire purpose of this project was to test my knowledge of
@@ -130,5 +94,3 @@ export default function Portfolio() {
     </div>
   );
 }
-
-//

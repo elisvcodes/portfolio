@@ -1,79 +1,71 @@
-.about_me{
-    position: relative;
+.about_me {
+  position: relative;
 }
 
-.about_me_title{
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    color: #ccc;
-    font-weight: 500;
-    letter-spacing: 0.1rem;
+.about_me_title {
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  color: #ccc;
+  font-weight: 500;
+  letter-spacing: 0.1rem;
 }
 
 .story {
-    padding: 70px 0;
+  padding: 70px 0;
 }
 
-.story_pic{
-    display: inline-block;
-    position: relative;
-    width: 100px;
-    height: 100px;
-    overflow: hidden;
-    border-radius: 50%;
-    
-}
-
-.story_pic img {
-    max-height: none !important;
-    height: auto !important;
-    margin-top: 30px;
-
+.story_pic {
+  width: 100px;
+  height: 100px;
+  display: block;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
 }
 
 .story_text {
-    margin-top: 30px;
-    font-size: 1.3rem;
-    color: #14213d;
-    letter-spacing: 0.1rem;
-    line-height: 2.8rem;
+  margin-top: 30px;
+  font-size: 1.3rem;
+  color: #14213d;
+  letter-spacing: 0.1rem;
+  line-height: 2.8rem;
 }
 
 .btn {
-    border: none;
-    cursor: pointer;
-    font-size: 1.1rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    margin: 1rem 0;
-    padding: 10px 25px;
-    color:#fff;
-    background-color: #fb5607;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 1rem 0;
+  padding: 10px 25px;
+  color: #fff;
+  background-color: #fb5607;
 }
 
 .hide {
-    display: none;
+  display: none;
 }
 
 .show {
-    display: block;
+  display: block;
 }
 
 @media screen and (min-width: 1024px) {
-    .about_me_title {
-        text-align: center;
-    }
-    .story_pic {
-        margin : 0 auto;
-        display : block;
-    }
+  .about_me_title {
+    text-align: center;
+  }
+  .story_pic {
+    margin: 0 auto;
+    display: block;
+  }
 
-    .story_text {
-        font-size: 1.6rem;
-        line-height: 3.5rem;
-    }
-    .btn {
-        margin: 30px auto;
-        display: block;    
-    }
+  .story_text {
+    font-size: 1.6rem;
+    line-height: 3.5rem;
+  }
+  .btn {
+    margin: 30px auto;
+    display: block;
+  }
 }

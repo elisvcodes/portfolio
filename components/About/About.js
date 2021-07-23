@@ -10,16 +10,11 @@ export default function About() {
     <div className={`section ${styles.about_me}`}>
       <h3 className={styles.about_me_title}>My little story</h3>
       <div className={styles.story}>
-        <div className={styles.story_pic}>
-          <Image
-            src='/mypic.png'
-            width={300}
-            height={300}
-            objectFit='contain'
-            alt='Eli Sultanov'
-            priority={true}
-          />
-        </div>
+        <img
+          src='mypic.png'
+          alt='eli sultanov image'
+          className={styles.story_pic}
+        />
         <div className={styles.story_text}>
           <p>Hi,</p>
           <p>

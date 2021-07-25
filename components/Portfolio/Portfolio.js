@@ -17,12 +17,18 @@ export default function Portfolio() {
             missing.
           </p>
           <div className={styles.icons}>
-            <a href='https://github.com/elisvcodes/TweTwe' target='_blank'>
-              <DiGithubAlt />
-            </a>
-            <a href='https://twetwe.elisv.com/' target='_blank'>
-              <DiSafari />
-            </a>
+            <div className={styles.tooltip}>
+              <a href='https://github.com/elisvcodes/TweTwe' target='_blank'>
+                <DiGithubAlt />
+                <span className={styles.tooltiptext}>GitHub</span>
+              </a>
+            </div>
+            <div className={styles.tooltip}>
+              <a href='https://twetwe.elisv.com/' target='_blank'>
+                <DiSafari />
+                <span className={styles.tooltiptext}>Demo</span>
+              </a>
+            </div>
           </div>
         </div>
         <div className={`${styles.portfolio_box} `}>
@@ -36,12 +42,18 @@ export default function Portfolio() {
             account.
           </p>
           <div className={styles.icons}>
-            <a href='https://github.com/elisvcodes/Offset' target='_blank'>
-              <DiGithubAlt />
-            </a>
-            <a href='https://offset.elisv.com/' target='_blank'>
-              <DiSafari />
-            </a>
+            <div className={styles.tooltip}>
+              <a href='https://github.com/elisvcodes/offset' target='_blank'>
+                <DiGithubAlt />
+                <span className={styles.tooltiptext}>GitHub</span>
+              </a>
+            </div>
+            <div className={styles.tooltip}>
+              <a href='https://offset.elisv.com/' target='_blank'>
+                <DiSafari />
+                <span className={styles.tooltiptext}>Demo</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
@@ -56,12 +68,18 @@ export default function Portfolio() {
             classes that speed up the process of building websites.
           </p>
           <div className={styles.icons}>
-            <a href='https://github.com/elisvcodes/KoreCSS' target='_blank'>
-              <DiGithubAlt />
-            </a>
-            <a href='https://elisvcodes.github.io/kore-site/' target='_blank'>
-              <DiSafari />
-            </a>
+            <div className={styles.tooltip}>
+              <a href='https://github.com/elisvcodes/KoreCSS' target='_blank'>
+                <DiGithubAlt />
+                <span className={styles.tooltiptext}>GitHub</span>
+              </a>
+            </div>
+            <div className={styles.tooltip}>
+              <a href='https://elisvcodes.github.io/kore-site/' target='_blank'>
+                <DiSafari />
+                <span className={styles.tooltiptext}>Demo</span>
+              </a>
+            </div>
           </div>
         </div>
 
@@ -75,18 +93,24 @@ export default function Portfolio() {
             code, I moved on to learning libraries such as React.
           </p>
           <div className={styles.icons}>
-            <a
-              href='https://github.com/elisvcodes/budget-tracker/'
-              target='_blank'
-            >
-              <DiGithubAlt />
-            </a>
-            <a
-              href='https://elisvcodes.github.io/budget-tracker/'
-              target='_blank'
-            >
-              <DiSafari />
-            </a>
+            <div className={styles.tooltip}>
+              <a
+                href='https://github.com/elisvcodes/budget-tracker'
+                target='_blank'
+              >
+                <DiGithubAlt />
+                <span className={styles.tooltiptext}>GitHub</span>
+              </a>
+            </div>
+            <div className={styles.tooltip}>
+              <a
+                href='https://elisvcodes.github.io/budget-tracker/'
+                target='_blank'
+              >
+                <DiSafari />
+                <span className={styles.tooltiptext}>Demo</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>

@@ -47,6 +47,9 @@
   .portfolio {
     display: flex;
   }
+  .portfolio_box {
+    margin-right: 1rem;
+  }
   .portfolio_box_title {
     font-size: 1.7rem;
     font-weight: 600;
@@ -54,11 +57,5 @@
   .portfolio_box_body {
     font-size: 1.35rem;
     line-height: 3rem;
-  }
-  .box1 {
-    margin-right: 1rem;
-  }
-  .box2 {
-    margin-left: 1rem;
   }
 }

@@ -6,7 +6,7 @@ export default function Portfolio() {
     <div className='section'>
       <h3 className={styles.portfolio_title}>Things I've built</h3>
       <div className={styles.portfolio}>
-        <div className={`${styles.portfolio_box} ${styles.box1}`}>
+        <div className={`${styles.portfolio_box} `}>
           <img src='/twetwe.png' alt='twetwe image' />
           <h2 className={styles.portfolio_box_title}>Twe Twe</h2>
           <p className={styles.portfolio_box_body}>
@@ -25,7 +25,7 @@ export default function Portfolio() {
             </a>
           </div>
         </div>
-        <div className={`${styles.portfolio_box} ${styles.box2}`}>
+        <div className={`${styles.portfolio_box} `}>
           <img src='/offset-srn.png' alt='offset image' />
           <h2 className={styles.portfolio_box_title}>OffSet</h2>
           <p className={styles.portfolio_box_body}>
@@ -46,7 +46,7 @@ export default function Portfolio() {
         </div>
       </div>
       <div className={styles.portfolio}>
-        <div className={`${styles.portfolio_box} ${styles.box1}`}>
+        <div className={`${styles.portfolio_box} `}>
           <img src='/rsz_kore.png' alt='korecss image' />
           <h2 className={styles.portfolio_box_title}>KoreCSS</h2>
           <p className={styles.portfolio_box_body}>
@@ -65,7 +65,7 @@ export default function Portfolio() {
           </div>
         </div>
 
-        <div className={`${styles.portfolio_box} ${styles.box2}`}>
+        <div className={`${styles.portfolio_box} `}>
           <img src='/rsz_1bt.png' alt='Budget Tracker image' />
           <h2 className={styles.portfolio_box_title}>Budget Tracker</h2>
           <p className={styles.portfolio_box_body}>

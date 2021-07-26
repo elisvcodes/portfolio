@@ -7,11 +7,11 @@
 }
 
 .portfolio {
-  padding: 30px 0;
+  padding: 15px 0;
 }
 
 .portfolio_box {
-  margin: 40px 0;
+  margin: 20px 0;
 }
 
 .portfolio_box_title {
@@ -39,6 +39,13 @@
   margin-right: 2rem;
   cursor: pointer;
 }
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+.tooltip .tooltiptext {
+  visibility: hidden;
+}
 
 @media screen and (min-width: 1024px) {
   .portfolio_title {
@@ -47,10 +54,7 @@
   .portfolio {
     display: flex;
   }
-  .tooltip {
-    position: relative;
-    display: inline-block;
-  }
+
   .tooltip .tooltiptext {
     visibility: hidden;
     width: 60px;
@@ -63,7 +67,7 @@
     z-index: 1;
     bottom: 130%;
     left: 50%;
-    margin-left: -30px; /* Use half of the width (120/2 = 60), to center the tooltip */
+    margin-left: -30px; /* Use half of the width (60/2 = 30), to center the tooltip */
   }
   .tooltip:hover .tooltiptext {
     visibility: visible;

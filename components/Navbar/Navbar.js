@@ -34,15 +34,6 @@ export default function Navbar() {
             <ImGithub />
           </a>
         </li>
-//         <li
-//           className={`${styles.menu_icons} ${styles.icons}`}
-//           onClick={handleClick}
-//         >
-//           {' '}
-//           <a target='_blank' href='https://twitter.com/elisvcodes'>
-//             <ImTwitter />
-//           </a>
-//         </li>
         <li
           className={`${styles.menu_icons} ${styles.icons}`}
           onClick={handleClick}

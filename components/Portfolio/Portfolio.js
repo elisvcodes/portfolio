@@ -32,7 +32,34 @@ export default function Portfolio() {
           </div>
         </div>
         <div className={`${styles.portfolio_box} `}>
-          <img src='/offset-srn.png' alt='offset image' />
+          <img src='/ioi.png' alt='korecss image' />
+          <h2 className={styles.portfolio_box_title}>IOI Gaming</h2>
+          <p className={styles.portfolio_box_body}>
+            IOI (Pronounced Eye-O-Eye) is a fictional e-commerce platform that
+            was built for gaming enthusiast to hunt for deals. As a shop owner
+            you are able to managed everything from the admin area including
+            adding products, view orders, and much more. The project was built
+            using mern.
+          </p>
+          <div className={styles.icons}>
+            <div className={styles.tooltip}>
+              <a href='https://github.com/elisvcodes/IOIGaming' target='_blank'>
+                <DiGithubAlt />
+                <span className={styles.tooltiptext}>GitHub</span>
+              </a>
+            </div>
+            <div className={styles.tooltip}>
+              <a href='https://ioi.elisv.com/' target='_blank'>
+                <DiSafari />
+                <span className={styles.tooltiptext}>Demo</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className={styles.portfolio}>
+        <div className={`${styles.portfolio_box} `}>
+          <img src='/offset.png' alt='offset image' />
           <h2 className={styles.portfolio_box_title}>OffSet</h2>
           <p className={styles.portfolio_box_body}>
             OffSet is a platform that compares the carbon footprint between
@@ -56,35 +83,9 @@ export default function Portfolio() {
             </div>
           </div>
         </div>
-      </div>
-      <div className={styles.portfolio}>
-        <div className={`${styles.portfolio_box} `}>
-          <img src='/rsz_kore.png' alt='korecss image' />
-          <h2 className={styles.portfolio_box_title}>KoreCSS</h2>
-          <p className={styles.portfolio_box_body}>
-            This was my first attempt at creating something for the open source
-            community. KoreCSS is a simple CSS library with core functions such
-            as a navbar, a grid system powered by flexbox, forms, and other util
-            classes that speed up the process of building websites.
-          </p>
-          <div className={styles.icons}>
-            <div className={styles.tooltip}>
-              <a href='https://github.com/elisvcodes/KoreCSS' target='_blank'>
-                <DiGithubAlt />
-                <span className={styles.tooltiptext}>GitHub</span>
-              </a>
-            </div>
-            <div className={styles.tooltip}>
-              <a href='https://elisvcodes.github.io/kore-site/' target='_blank'>
-                <DiSafari />
-                <span className={styles.tooltiptext}>Demo</span>
-              </a>
-            </div>
-          </div>
-        </div>
 
         <div className={`${styles.portfolio_box} `}>
-          <img src='/rsz_1bt.png' alt='Budget Tracker image' />
+          <img src='/budget.png' alt='Budget Tracker image' />
           <h2 className={styles.portfolio_box_title}>Budget Tracker</h2>
           <p className={styles.portfolio_box_body}>
             The entire purpose of this project was to test my knowledge of
